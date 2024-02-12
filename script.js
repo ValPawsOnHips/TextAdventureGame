@@ -62,6 +62,24 @@ if (userInput == 1) {
 
   if (userInput == 1) {
     userInput = prompt(q3);
+
+    if (userInput == 2) {
+      userInput = prompt(q4);
+
+      if (userInput == 1) {
+        userInput = prompt(q5);
+
+        if (userInput == 2) {
+          userInput = prompt(win);
+        } else {
+          alert(gameOver5);
+        }
+      } else {
+        alert(gameOver4);
+      }
+    } else {
+      alert(gameOver3);
+    }
   } else {
     alert(gameOver2);
   }
