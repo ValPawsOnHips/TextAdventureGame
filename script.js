@@ -70,7 +70,7 @@ if (userInput == 1) {
         userInput = prompt(q5);
 
         if (userInput == 2) {
-          userInput = prompt(win);
+          alert(win);
         } else {
           alert(gameOver5);
         }
